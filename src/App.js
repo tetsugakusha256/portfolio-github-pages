@@ -6,9 +6,8 @@ import NavBar from "./components/NavBar";
 function App() {
   return (
     <div className="App">
-      <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>Portfolio</h2>
+      <div className="bg-neutral-800 h-screen p-5 text-white App-header">
+        <h1 className="text-7xl">Portfolio !</h1>
         <NavBar />
       </div>
     </div>
